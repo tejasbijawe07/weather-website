@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button>Search</button>   
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Pune</h2>
+            <h1 class="temp">37°C</h1>
+            <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon">
+            <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 40%</div>
+            <div class="wind">Wind speed: 6.5km/hr</div>
+        </div>
+    </div>
+</body>
+</html>
